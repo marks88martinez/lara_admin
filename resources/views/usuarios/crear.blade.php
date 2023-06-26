@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <!-- ///////////////////////////////////// -->
+<!-- ///////////////////////////////////// -->
 <div class="container-fluid">
 
     <!-- start page title -->
@@ -40,7 +40,6 @@
                 <div class="tab-pane" id="input-types-preview" role="tabpanel">
                             <div class="row">
                                 <div class="col-lg-12">
-
                                     <form action="{{ route('usuarios.store') }}" method="POST">
                                         @csrf
                                         <div class="mb-3">
