@@ -41,15 +41,15 @@
 
             <!-- Topbar Search Form -->
             <div class="app-search dropdown d-none d-lg-block">
-                <form>
+                {{-- <form>
                     <div class="input-group">
                         <input type="search" class="form-control dropdown-toggle" placeholder="Search..." id="top-search">
                         <span class="mdi mdi-magnify search-icon"></span>
                         <button class="input-group-text btn btn-primary" type="submit">Search</button>
                     </div>
-                </form>
+                </form> --}}
 
-                <div class="dropdown-menu dropdown-menu-animated dropdown-lg" id="search-dropdown">
+                {{-- <div class="dropdown-menu dropdown-menu-animated dropdown-lg" id="search-dropdown">
                     <!-- item-->
                     <div class="dropdown-header noti-title">
                         <h5 class="text-overflow mb-2">Found <span class="text-danger">17</span> results</h5>
@@ -101,7 +101,7 @@
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
 
@@ -111,13 +111,13 @@
                     <i class="ri-search-line font-22"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-animated dropdown-lg p-0">
-                    <form class="p-3">
+                    {{-- <form class="p-3">
                         <input type="search" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
-                    </form>
+                    </form> --}}
                 </div>
             </li>
 
-            <li class="dropdown">
+            {{-- <li class="dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                     <img src="/assets/images/flags/us.jpg" alt="user-image" class="me-0 me-sm-1" height="12">
                     <span class="align-middle d-none d-lg-inline-block">English</span> <i class="mdi mdi-chevron-down d-none d-sm-inline-block align-middle"></i>
@@ -145,7 +145,7 @@
                     </a>
 
                 </div>
-            </li>
+            </li> --}}
 
             <li class="dropdown notification-list">
                 <a class="nav-link dropdown-toggle arrow-none" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
@@ -378,25 +378,26 @@
                     </a>
 
                     <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item">
+                    {{-- <a href="javascript:void(0);" class="dropdown-item">
                         <i class="mdi mdi-lifebuoy me-1"></i>
                         <span>Support</span>
-                    </a>
+                    </a> --}}
 
                     <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item">
+                    {{-- <a href="javascript:void(0);" class="dropdown-item">
                         <i class="mdi mdi-lock-outline me-1"></i>
                         <span>Lock Screen</span>
-                    </a>
+                    </a> --}}
 
                     <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item">
+                    {{-- <a href="javascript:void(0);" class="dropdown-item">
                         <i class="mdi mdi-logout me-1"></i>
                         <span>Logout</span>
-                    </a>
+                    </a> --}}
                     <a class="dropdown-item" href="{{ route('logout') }}"
                         onclick="event.preventDefault();
                                   document.getElementById('logout-form').submit();">
+                        <i class="mdi mdi-logout me-1"></i>
                         {{ __('Logout') }}
                     </a>
 
