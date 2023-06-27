@@ -129,7 +129,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4" dir="ltr">
-                            <div id="country-chart" class="apex-charts" data-colors="#727cf5"></div>
+                            <div id="country-chart" class="apex-charts" data-colors="#03203d"></div>
                         </div>
                     </div>
                 </div> <!-- end card-body-->
@@ -220,7 +220,7 @@
                 </div>
 
                 <div class="card-body pt-0">
-                    <div id="sessions-browser" class="apex-charts mt-2" data-colors="#727cf5"></div>
+                    <div id="sessions-browser" class="apex-charts mt-2" data-colors="#03203d"></div>
                 </div> <!-- end card-body-->
             </div> <!-- end card-->
         </div> <!-- end col-->
@@ -242,7 +242,7 @@
                 </div>
 
                 <div class="card-body pt-0">
-                    <div id="sessions-os" class="apex-charts mt-2" data-colors="#727cf5,#0acf97,#fa5c7c,#ffbc00"></div>
+                    <div id="sessions-os" class="apex-charts mt-2" data-colors="#03203d,#0acf97,#fa5c7c,#ffbc00"></div>
 
                     <div class="row text-center mt-2">
                         <div class="col-6">
