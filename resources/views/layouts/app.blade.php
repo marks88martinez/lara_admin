@@ -46,9 +46,9 @@
 
                     <!-- Start Content-->
                     <div class="container-fluid">
-                       
+
                             @yield('content')
-                     
+
 
 
                     </div>
@@ -80,10 +80,11 @@
             <!-- ============================================================== -->
             <!-- End Page content -->
             <!-- ============================================================== -->
-        
+
 
 </div>
-     
+
+
        <!-- Vendor js -->
        <script src="/assets/js/vendor.min.js"></script>
 
@@ -105,7 +106,13 @@
        <!-- App js -->
        <script src="/assets/js/app.min.js"></script>
 
+       <script>
+        $('document').ready(function(){
+            $("#checkTodos").change(function () {
+                $("input:checkbox").prop('checked', $(this).prop("checked"));
+            });
+        });
+    </script>
 
-            
 </body>
 </html>

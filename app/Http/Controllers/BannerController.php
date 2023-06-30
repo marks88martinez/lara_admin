@@ -7,9 +7,14 @@ use Illuminate\Http\Request;
 
 class BannerController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+    function __construct()
+    {
+         $this->middleware('permission:ver-banner|crear-banner|editar-banner|borrar-banner')->only('index');
+         $this->middleware('permission:crear-banner', ['only' => ['create','store']]);
+         $this->middleware('permission:editar-banner', ['only' => ['edit','update']]);
+         $this->middleware('permission:borrar-banner', ['only' => ['destroy']]);
+    }
+
     public function index()
     {
         //

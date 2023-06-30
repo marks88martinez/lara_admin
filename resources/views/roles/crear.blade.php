@@ -51,6 +51,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label for="">Permisos para este Rol:</label>
+                                                <input type="checkbox" id="checkTodos" />Todos
                                                 <br/>
                                                 @foreach($permission as $value)
                                                     <label>{{ Form::checkbox('permission[]', $value->id, false, array('class' => 'name')) }}
@@ -82,4 +83,9 @@
     </div>
     <!-- ///////////////////////////////////// -->
 
+
 @endsection
+
+
+
+
