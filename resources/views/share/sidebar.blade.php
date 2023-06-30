@@ -44,7 +44,7 @@
         <!--- Sidemenu -->
         <ul class="side-nav">
 
-          
+
 
             <li class="side-nav-item">
                 <a href="{{ route('home') }}" class="side-nav-link">
@@ -52,7 +52,7 @@
                     <span> Dashboards </span>
                 </a>
             </li>
-        
+
 
             <li class="side-nav-item">
                 <a href="{{ route('home') }}" class="side-nav-link">
@@ -61,7 +61,7 @@
                 </a>
             </li>
 
-      
+
            <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#sidebarUsuario" aria-expanded="false" aria-controls="sidebarEmail" class="side-nav-link">
                     <i class="ri-user-follow-line"></i>
@@ -81,9 +81,34 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+           </li>
+           <li class="side-nav-item">
+                <a href="apps-calendar.html" class="side-nav-link">
+                    <i class="uil-calender"></i>
+                    <span> Calendar </span>
+                </a>
+           </li>
+           <li class="side-nav-item">
+            <a data-bs-toggle="collapse" href="#sidebarEmail" aria-expanded="false" aria-controls="sidebarEmail" class="side-nav-link">
+                <i class="uil-envelope"></i>
+                <span> Email </span>
+                <span class="menu-arrow"></span>
+            </a>
+            <div class="collapse" id="sidebarEmail">
+                <ul class="side-nav-second-level">
+                    <li>
+                        <a href="apps-email-inbox.html">Inbox</a>
+                    </li>
+                    <li>
+                        <a href="apps-email-read.html">Read Email</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
 
-           
+
+
+
 
 
 
